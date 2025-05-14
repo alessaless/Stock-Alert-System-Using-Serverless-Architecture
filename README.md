@@ -6,7 +6,7 @@ quando i valori scendono sotto soglia, utilizzando esclusivamente **servizi AWS 
 ---
 
 ## ☁️ Architettura
-![Architettura](https://raw.githubusercontent.com/alessaless/Stock-Alert-System-Using-Serverless-Architecture/master/architecture/architecture.png)
+![Architettura]([https://raw.githubusercontent.com/alessaless/Stock-Alert-System-Using-Serverless-Architecture/master/architecture/architecture.png](https://github.com/alessaless/Stock-Alert-System-Using-Serverless-Architecture/blob/master/architecture/architecture.png?raw=true))
 
 
 ---
