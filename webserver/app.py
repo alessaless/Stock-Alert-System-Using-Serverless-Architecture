@@ -21,6 +21,16 @@ def ordina():
     if not referenze or not isinstance(referenze, list):
         return jsonify({"error": "Fornisci una lista di referenze valida"}), 400
 
+    for ref in referenze:
+        if (
+            not isinstance(ref, dict)
+            or "id" not in ref
+            or "quantita" not in ref
+            or not isinstance(ref["id"], str)
+            or not isinstance(ref["quantita"], int)
+        ):
+            return jsonify({"error": f"Formato errato per referenza: {ref}"}), 400
+
     try:
         response = requests.post(
             LAMBDA_API_URL,
