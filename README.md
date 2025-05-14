@@ -46,5 +46,8 @@ Inoltre è necessario settare la variabile d'ambiente `DESTINATARIO_SMS` della l
 
 ```json
 {
-  "referenze": ["REF001", "REF002"]
+  "referenze": [
+    { "id": "REF001", "quantita": 2 },
+    { "id": "REF002", "quantita": 1 }
+  ]
 }
